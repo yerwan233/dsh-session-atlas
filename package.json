@@ -1,0 +1,56 @@
+{
+  "name": "dsh-session-atlas",
+  "version": "0.2.17",
+  "description": "A Blender-style node canvas in the DSH sidebar: real workspaces and sessions as a live graph with nesting edges, session groups, native workspace create/adopt/rename/delete and pending/running/unread status badges.",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "workspace",
+    "sessions",
+    "node-graph",
+    "sidebar"
+  ],
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yerwan233/dsh-session-atlas.git"
+  },
+  "homepage": "https://github.com/yerwan233/dsh-session-atlas#readme",
+  "bugs": {
+    "url": "https://github.com/yerwan233/dsh-session-atlas/issues"
+  },
+  "scripts": {},
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  }
+}

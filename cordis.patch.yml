@@ -1,0 +1,6 @@
+# bundle 层 patch：把本插件的 Host 半边插入 profile 组合树。
+# config 是整行替换（不是深合并）：这里没写的字段由代码里的默认值兜底。
+- insert:
+    - id: dsh-session-atlas
+      name: dsh-session-atlas
+      config: {}

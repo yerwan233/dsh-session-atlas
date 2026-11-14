@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Workspace Graph",
+    "description": "Sidebar page: real workspaces and their sessions as a branch tree, multi-select groups with merge, native workspace create, rename, delete, and same-directory session adoption; nodes show live pending/running/unread-done status, with an active-only mode for pending/running/unread-done sessions and their workspace chain; filtering auto-fits and centers the result."
+  }
+}

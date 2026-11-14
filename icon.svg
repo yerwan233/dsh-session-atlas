@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Workspace graph">
+  <path d="M24 20.5 36.5 30" fill="none" stroke="#2563EB" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M24 43.5 36.5 34" fill="none" stroke="#2563EB" stroke-width="3.2" stroke-linecap="round"/>
+  <circle cx="18" cy="20" r="7" fill="#2563EB"/>
+  <circle cx="18" cy="44" r="7" fill="#60A5FA"/>
+  <circle cx="45" cy="32" r="10" fill="#1E3A8A"/>
+  <circle cx="45" cy="32" r="3.4" fill="#DBEAFE"/>
+</svg>
